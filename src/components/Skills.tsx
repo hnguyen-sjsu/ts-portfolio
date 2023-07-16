@@ -3,14 +3,14 @@ export const Skills = () => {
         <div id='skills' className='w-full mt-10 sm:mt-0 dark_bg'>
             <div className='container mx-auto px-4 py-20 space-y-4'>
                 <h1 className='hero_title blue_gradient'>Skills</h1>
-                <div className='flex items-start sm:items-center justify-center space-x-4'>
+                <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 sm:content-center sm:justify-items-center'>
                     {skills.map((skill, idx) => (
                         <div
                             key={idx}
                             className='group space-y-2 duration-500 transition ease-in-out hover:transition-all hover:scale-110'
                         >
                             <div>{skill.svg}</div>
-                            <div className='text-white text-center cursor-default'>
+                            <div className='text-white sm:text-center cursor-default'>
                                 {skill.name}
                             </div>
                         </div>
