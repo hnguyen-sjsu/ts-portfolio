@@ -2,7 +2,6 @@ import './App.css'
 import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Navbar } from './components/Navbar'
-import { OverlayIcons } from './components/OverlayIcons'
 import Projects from './components/Projects'
 import { Skills } from './components/Skills'
 
