@@ -2,7 +2,7 @@ export const Skills = () => {
     return (
         <div id='skills' className='w-full mt-10 sm:mt-0 dark_bg'>
             <div className='container mx-auto px-4 py-20 space-y-4'>
-                <h1 className='hero_title blue_gradient '>Skills</h1>
+                <h1 className='hero_title blue_gradient'>Skills</h1>
                 <div className='flex items-start sm:items-center justify-center space-x-4'>
                     {skills.map((skill, idx) => (
                         <div
@@ -55,7 +55,7 @@ const skills = [
         svg: (
             <svg
                 xmlns='http://www.w3.org/2000/svg'
-                enable-background='new 0 0 128 128'
+                enableBackground='new 0 0 128 128'
                 viewBox='0 0 128 128'
                 id='react'
                 className='h-10 w-10 sm:h-20 sm:w-20 fill-white mx-2 my-2'
@@ -95,7 +95,7 @@ const skills = [
                 className='rounded-md sm:rounded-xl h-10 w-10 sm:h-20 sm:w-20  mx-2 my-2'
                 id='java'
             >
-                <g fill-rule='evenodd' clip-rule='evenodd'>
+                <g fillRule='evenodd' clipRule='evenodd'>
                     <path fill='#fff' d='M0 0h192.756v192.756H0V0z'></path>
                     <path
                         fill='#3174b9'
@@ -169,8 +169,8 @@ const skills = [
                         y1='12.039%'
                         y2='78.201%'
                     >
-                        <stop offset='0%' stop-color='#387EB8'></stop>
-                        <stop offset='100%' stop-color='#366994'></stop>
+                        <stop offset='0%' stopColor='#387EB8'></stop>
+                        <stop offset='100%' stopColor='#366994'></stop>
                     </linearGradient>
                     <linearGradient
                         id='b'
@@ -179,8 +179,8 @@ const skills = [
                         y1='20.579%'
                         y2='88.429%'
                     >
-                        <stop offset='0%' stop-color='#FFE052'></stop>
-                        <stop offset='100%' stop-color='#FFC331'></stop>
+                        <stop offset='0%' stopColor='#FFE052'></stop>
+                        <stop offset='100%' stopColor='#FFC331'></stop>
                     </linearGradient>
                 </defs>
                 <path
