@@ -108,7 +108,7 @@ html {
 }
 
 .gradient_orange_to_purple {
-    @apply font-black bg-gradient-to-r from-orange-500 to-purple-800 bg-clip-text text-transparent;
+    @apply font-black bg-gradient-to-r from-orange-500 to-pink-600 bg-clip-text text-transparent;
 }
 
 .blue_gradient {

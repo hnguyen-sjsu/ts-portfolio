@@ -1,3 +1,5 @@
+import { LinkIcon } from '@heroicons/react/24/outline'
+
 const Projects = () => {
     return (
         <div id='projects' className='container mx-auto px-4 w-full pt-12'>
@@ -6,7 +8,6 @@ const Projects = () => {
                     Projects I've Done
                 </span>
             </div>
-
             <div className='space-y-5'>
                 {projects.map((project, idx) => (
                     <div key={idx} className='space-y-2'>
@@ -16,9 +17,22 @@ const Projects = () => {
                             } gap-2`}
                         >
                             <div className='space-y-2'>
-                                <h1 className='project_title gradient_orange_to_purple'>
-                                    {project.title}
-                                </h1>
+                                <div className='flex flex-row space-x-2 items-center'>
+                                    <h1 className='project_title gradient_orange_to_purple '>
+                                        {project.title}
+                                    </h1>
+                                    {project.link.length > 0 && (
+                                        <a
+                                            href={project.link}
+                                            className='group rounded-md hover:bg-pink-600 px-1 py-1'
+                                        >
+                                            <LinkIcon
+                                                className='block h-4 w-4 group-hover:text-white'
+                                                aria-hidden='true'
+                                            />
+                                        </a>
+                                    )}
+                                </div>
                                 <h2 className='project_type text-gray-500 font-semibold italic'>
                                     {project.type}
                                 </h2>
@@ -126,7 +140,7 @@ const projects = [
         description:
             'A marketplace web application provides a space for users to list their products for sale and for others to make bids on the products in which they are interested. The users can filter the products based on their current location.',
         images: [],
-        link: '#marketplace',
+        link: '',
         skills: ['React', 'HTML', 'CSS', 'SpringBoot', 'SQL'],
     },
     {
@@ -136,7 +150,7 @@ const projects = [
         description:
             'A mobile web application for people to keep track of their workout exercises categorized by muscle group and workout dates.',
         images: [],
-        link: '#fitlog',
+        link: '',
         skills: ['React', 'Firebase', 'HTML', 'CSS'],
     },
 ]
