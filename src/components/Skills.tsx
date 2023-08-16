@@ -35,6 +35,7 @@ export const Skills = () => {
 }
 
 const otherSkills = [
+    'NoSQL', 'MongoDB',
     'SQL',
     'HTML',
     'CSS',
