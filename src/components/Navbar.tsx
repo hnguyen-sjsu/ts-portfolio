@@ -9,7 +9,7 @@ const navigationItems = [
 ]
 
 const resumeUrl =
-    'https://res.cloudinary.com/dj1ikymq4/image/upload/v1678242223/knguyen209-portfolio/Kenny_Nguyen_Resume_2023_zobmxk.pdf'
+    'https://docs.google.com/document/d/e/2PACX-1vRsdtnCp72i188eMOYqyAo2DXV4o2_G6tUf-Psf15aGeZy75eQEU-cyCIgtNZGrxP-0_-UqylPoXRMQ/pub'
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
